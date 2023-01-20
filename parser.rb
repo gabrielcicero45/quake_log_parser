@@ -2,8 +2,8 @@ require './game.rb'
 class LogParser
   attr_reader :logs
 
-  def initialize
-      @logs = File.foreach('games.log')
+  def initialize(path)
+      @logs = File.foreach(path)
   end
 
   def parse_games
