@@ -39,3 +39,4 @@ class LogParser
   end
 end
 
+end
