@@ -14,4 +14,12 @@ class Player
     "#{name}: #{points}"
   end
 
+  def add_point
+    @points +=1
+  end
+
+  def remove_point
+    @points -=1 if (@points > 0)
+  end
+
 end
